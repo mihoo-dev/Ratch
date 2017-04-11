@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratch", "Ratch.csproj", "{E2292034-6613-23AC-EC96-35FE454631A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratch.Editor", "Ratch.Editor.csproj", "{84C2BC23-8842-F251-69AF-CB179497BD72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2292034-6613-23AC-EC96-35FE454631A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2292034-6613-23AC-EC96-35FE454631A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2292034-6613-23AC-EC96-35FE454631A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2292034-6613-23AC-EC96-35FE454631A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C2BC23-8842-F251-69AF-CB179497BD72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C2BC23-8842-F251-69AF-CB179497BD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C2BC23-8842-F251-69AF-CB179497BD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C2BC23-8842-F251-69AF-CB179497BD72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -35,9 +35,9 @@ public class monster : MonoBehaviour {
             //범위안에 들어왔을 때
             if(Physics.Linecast(Eyes.position, Player.transform.position, out RayHit))
             {
-                //print("hit " + rayHit.collider.gameObject.name);
+               // print("hit " + RayHit.collider.gameObject.name);
                 //그게 플레이어 일때
-                if(RayHit.collider.gameObject.name == "Capsule")
+                if(RayHit.collider.gameObject.name == "Player")
                 {
                     if(State != "kill")
                     {
@@ -52,7 +52,7 @@ public class monster : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-       // Debug.DrawLine(eyes.position, player.transform.position, Color.green);
+        Debug.DrawLine(Eyes.position, Player.transform.position, Color.green);
         if (Alive)
         {
             Anim.SetFloat("velocity", Nav.velocity.magnitude);
