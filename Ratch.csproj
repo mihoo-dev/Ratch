@@ -82,6 +82,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\FirstPersonPlayer.cs" />
     <Compile Include="Assets\Script\MapGeneration.cs" />
+    <Compile Include="Assets\Script\PauseController.cs" />
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />
     <Compile Include="Assets\Script\Utility.cs" />
