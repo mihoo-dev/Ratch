@@ -17,6 +17,11 @@ public class FirstPersonPlayer : MonoBehaviour
     public bool Alive = true;
    
 
+
+//---------------------------------------------------------------
+// Player의 스크립트로 이동!
+//---------------------------------------------------------------
+ 
     void OnTriggerEnter(Collider Other)
     {
         if (Other.gameObject.name == "eyes")
