@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratch-branch_HyunJi", "Ratch-branch_HyunJi.csproj", "{1EDEC7D3-F98E-FA05-1302-EBDAFD4CE083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratch-branch_HyunJi.Editor", "Ratch-branch_HyunJi.Editor.csproj", "{E84E4284-E3B3-A283-2444-D096C081099D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EDEC7D3-F98E-FA05-1302-EBDAFD4CE083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EDEC7D3-F98E-FA05-1302-EBDAFD4CE083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EDEC7D3-F98E-FA05-1302-EBDAFD4CE083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EDEC7D3-F98E-FA05-1302-EBDAFD4CE083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84E4284-E3B3-A283-2444-D096C081099D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84E4284-E3B3-A283-2444-D096C081099D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84E4284-E3B3-A283-2444-D096C081099D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84E4284-E3B3-A283-2444-D096C081099D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
